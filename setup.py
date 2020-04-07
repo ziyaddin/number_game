@@ -2,11 +2,11 @@ import setuptools
 
 setuptools.setup(
     name="number_game", # Replace with your own username
-    version="0.0.1",
+    version="0.2",
     author="Fidan Musazade",
     author_email="frmusazade@gmail.com",
     description="A number game to play",
-    url="https://github.com/pypa/sampleproject",
+    url="https://github.com/fidanmusazade/number_game",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
