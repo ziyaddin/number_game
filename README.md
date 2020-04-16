@@ -27,6 +27,12 @@ If you wish to specify lower and upper bounds for the game, you could initialize
 ```
 In this case the number the game comes up for you will be between 10 and 1000.
 
+If you do not want to guess the current number, you can also shuffle the number again. In that case run the following:
+```
+>>> game.change_number() #if no args given, default 0-100 range
+>>> game.change_number(30, 50) #the number will be in 30-50 range
+```
+
 ## Motivation
 The aim of the project is just fun.
 
